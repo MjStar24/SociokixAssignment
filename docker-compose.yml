@@ -7,11 +7,7 @@ services:
       - "4000:4000"
     environment:
       - NODE_ENV=development
-<<<<<<< HEAD
       - DATABASE_URL=@DATABASE_URL
-=======
-      - DATABASE_URL=$DATABASE_URL
->>>>>>> parent of b35c1fa (compose updated)
     volumes:
       - ./backend:/src/app
     depends_on:
